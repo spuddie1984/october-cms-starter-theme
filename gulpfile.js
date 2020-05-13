@@ -10,13 +10,14 @@ elixir(function(mix){
     // throws errors if mix all the boostrap files (should investigate later)
     mix.sass([
         'bootstrap-grid.scss',
-        'bootstrap-reboot.scss'
+        'bootstrap-reboot.scss',
+        'custom.scss'
     ]);
 
     // js scripts
     mix.scripts([
-        'bootstrap.min.js',
-        'jquery.js'
+        'jquery.js',
+        'bootstrap.min.js'
     ]);
 
     // only watch the app.css and all pages
