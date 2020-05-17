@@ -23,4 +23,9 @@ A Starter theme for October CMS Based on the [Watch and Learn Video Series](http
 - Install the builder plugin 
 - Make a Projects plugin 
 - Hook up the Projects plugin with the projects page
+- Add Font Awesome scss library and recompile
+- Hookup the single projects page
+- Add a slug field
+- Add footer and header partials
+- Add Bootstrap Navbar and logic for active nav link classes
 

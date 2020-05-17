@@ -7,10 +7,10 @@ elixir.config.assetsPath = 'assets';
 elixir.config.publicPath = 'assets/compiled';
 
 elixir(function(mix){
-    // throws errors if mix all the boostrap files (should investigate later)
+    // *assestspath*/sass/
     mix.sass([
-        'bootstrap-grid.scss',
-        'bootstrap-reboot.scss',
+        'custom.scss',
+        '/fontawesome-scss/main_fontawesome.scss',
         'custom.scss'
     ]);
 

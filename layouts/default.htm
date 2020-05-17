@@ -12,17 +12,21 @@ description = "Default layout"
         <meta name="generator" content="OctoberCMS">
         <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
         <!-- Custom Styles -->
-        <link href="{{ 'assets/compiled/css/app.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/compiled/css/app.css' | theme }}" rel="stylesheet">
+       <!--  <link href="{{ 'assets/fontawesome/css/all.css' | theme }}" rel="stylesheet"> -->
         {% styles %}
         
     </head>
     <body>
+        
+        {% partial 'header' %} 
 
         <!-- Content -->
-        <section id="layout-content">
+        <main id="layout-content">
             {% page %}
-        </section>
+        </main>
 
+        {% partial 'footer' %}
         
         <script src="{{ 'assets/compiled/js/all.js'|theme }}"></script>
         {% framework extras %}
