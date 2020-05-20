@@ -1,0 +1,9 @@
+columns:
+    title:
+        label: 'Project Title'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'Project Description'
+        type: text

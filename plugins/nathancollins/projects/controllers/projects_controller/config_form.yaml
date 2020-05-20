@@ -1,0 +1,10 @@
+name: Projects_Controller
+form: $/nathancollins/projects/models/project/fields.yaml
+modelClass: NathanCollins\Projects\Models\Project
+defaultRedirect: nathancollins/projects/projects_controller
+create:
+    redirect: 'nathancollins/projects/projects_controller/update/:id'
+    redirectClose: nathancollins/projects/projects_controller
+update:
+    redirect: nathancollins/projects/projects_controller
+    redirectClose: nathancollins/projects/projects_controller

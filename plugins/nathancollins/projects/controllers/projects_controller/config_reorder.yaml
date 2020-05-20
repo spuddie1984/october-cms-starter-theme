@@ -1,0 +1,4 @@
+title: Projects_Controller
+modelClass: NathanCollins\Projects\Models\Project
+toolbar:
+    buttons: reorder_toolbar

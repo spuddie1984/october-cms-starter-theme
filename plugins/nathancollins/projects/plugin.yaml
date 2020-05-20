@@ -1,0 +1,11 @@
+plugin:
+    name: 'nathancollins.projects::lang.plugin.name'
+    description: 'nathancollins.projects::lang.plugin.description'
+    author: 'Nathan Collins'
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Projects
+        url: nathancollins/projects/projects_controller
+        icon: icon-list

@@ -1,0 +1,33 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        defaultFrom: title
+        type: text
+    github:
+        label: 'Github Url'
+        span: auto
+        type: text
+    url:
+        label: 'Site Url'
+        span: auto
+        type: text
+    description:
+        label: 'Description of Project'
+        size: large
+        span: full
+        type: textarea
+    thumbnail:
+        label: 'Screenshot of Project'
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        imageWidth: '100'
+        type: fileupload

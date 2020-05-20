@@ -1,0 +1,12 @@
+list: $/nathancollins/projects/models/project/columns.yaml
+modelClass: NathanCollins\Projects\Models\Project
+title: Projects_Controller
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'nathancollins/projects/projects_controller/update/:id'
