@@ -6,6 +6,7 @@ is_hidden = 0
 [builderList Projects]
 modelClass = "NathanCollins\Projects\Models\Project"
 scope = "-"
+scopeValue = "{{ :scope }}"
 displayColumn = "title"
 noRecordsMessage = "No records found"
 detailsPage = "project-single"
@@ -32,7 +33,7 @@ pageNumber = "{{ :page }}"
         </div>
         <div class="col-md-6">
             
-            <img src="{{ record.image_thumbnail.path }}" class="img-fluid" alt="">    
+            <img src="{{ record.thumbnail.path }}" class="img-fluid" alt="">    
         </div>
     </div>
   {% endfor %}

@@ -4,7 +4,7 @@ layout = "default"
 is_hidden = 0
 
 [builderDetails]
-modelClass = "NathanCollins\Projects\Models\Movie"
+modelClass = "NathanCollins\Projects\Models\Project"
 identifierValue = "{{ :slug }}"
 modelKeyColumn = "slug"
 displayColumn = "title"
@@ -18,7 +18,7 @@ notFoundMessage = "Record not found"
     <div class="row">
         <div class="col-md-12">
             <h1>{{ record.title }}</h1>
-            <img src="{{ record.image_thumbnail.path }}" alt="">
+            <img src="{{ record.thumbnail.path }}" alt="">
             <p>{{ record.description }}</p>
         </div>
     </div>
