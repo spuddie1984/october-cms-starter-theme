@@ -1,0 +1,15 @@
+{
+  "name": "my-starter-theme",
+  "version": "1.0.0",
+  "description": "A Starter theme for October CMS Based on the Watch and Learn Video Series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Collins",
+  "license": "ISC",
+  "dependencies": {
+    "laravel-elixir": "^6.0.0-18",
+    "laravel-elixir-livereload": "^1.1.6"
+  }
+}
