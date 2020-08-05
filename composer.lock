@@ -1788,16 +1788,16 @@
         },
         {
             "name": "october/backend",
-            "version": "v1.0.465",
+            "version": "v1.0.467",
             "source": {
                 "type": "git",
                 "url": "https://github.com/octoberrain/backend.git",
-                "reference": "d0232daecf7260b153aed56b6fa2d505afe08125"
+                "reference": "19611b5e27769636621c85180c842901552ac6a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/octoberrain/backend/zipball/d0232daecf7260b153aed56b6fa2d505afe08125",
-                "reference": "d0232daecf7260b153aed56b6fa2d505afe08125",
+                "url": "https://api.github.com/repos/octoberrain/backend/zipball/19611b5e27769636621c85180c842901552ac6a9",
+                "reference": "19611b5e27769636621c85180c842901552ac6a9",
                 "shasum": ""
             },
             "require": {
@@ -1843,7 +1843,7 @@
                 "october",
                 "october cms"
             ],
-            "time": "2020-02-28T09:47:33+00:00"
+            "time": "2020-06-24T17:33:44+00:00"
         },
         {
             "name": "october/cms",
