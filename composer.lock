@@ -1847,16 +1847,16 @@
         },
         {
             "name": "october/cms",
-            "version": "v1.0.465",
+            "version": "v1.0.468",
             "source": {
                 "type": "git",
                 "url": "https://github.com/octoberrain/cms.git",
-                "reference": "cb8bc02febf09f9835840cdd4cf951d1fe418010"
+                "reference": "b4d85661a58c8af7498bfaa78ea6b8a898d9dcf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/octoberrain/cms/zipball/cb8bc02febf09f9835840cdd4cf951d1fe418010",
-                "reference": "cb8bc02febf09f9835840cdd4cf951d1fe418010",
+                "url": "https://api.github.com/repos/octoberrain/cms/zipball/b4d85661a58c8af7498bfaa78ea6b8a898d9dcf2",
+                "reference": "b4d85661a58c8af7498bfaa78ea6b8a898d9dcf2",
                 "shasum": ""
             },
             "require": {
@@ -1902,7 +1902,7 @@
                 "october",
                 "october cms"
             ],
-            "time": "2020-02-28T09:47:33+00:00"
+            "time": "2020-07-16T08:42:28+00:00"
         },
         {
             "name": "october/rain",
@@ -2014,12 +2014,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/octoberrain/system.git",
-                "reference": "cc6b61e2c7bfe600d68628062eddb967e5602cc3"
+                "reference": "8204f6c6f2e41cfa5bb64b596aa25b0e6717f5fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/octoberrain/system/zipball/cc6b61e2c7bfe600d68628062eddb967e5602cc3",
-                "reference": "cc6b61e2c7bfe600d68628062eddb967e5602cc3",
+                "url": "https://api.github.com/repos/octoberrain/system/zipball/8204f6c6f2e41cfa5bb64b596aa25b0e6717f5fc",
+                "reference": "8204f6c6f2e41cfa5bb64b596aa25b0e6717f5fc",
                 "shasum": ""
             },
             "require": {
@@ -4304,6 +4304,7 @@
                 "faker",
                 "fixtures"
             ],
+            "abandoned": true,
             "time": "2019-12-12T13:22:17+00:00"
         },
         {
@@ -5010,6 +5011,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2017-11-27T05:48:46+00:00"
         },
         {
